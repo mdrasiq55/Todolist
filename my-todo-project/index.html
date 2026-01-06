@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOLIST</title>
+    <style>
+         body{ font-family:Arial;background-color:black;display:flex;justify-content:center;align-items:center;height:100vh;}
+         form { background:#F9D423; padding:20px; border-radius:10px; box-shadow:0 0 10px color(srgb #F9D423); width:300px; }
+         input, button { width: 95%; padding:10px; margin:5px 0; border-radius:5px; border:1px solid #ccc; }
+         button { background:black; color:white; border:none; cursor:pointer; }
+         button:hover { background:black; }
+         p { text-align:center; }
+    </style>
+</head>
+<body>
+<form id = "registerForm">
+    <h2> DX Registration</h2>
+    <input type="text" name="name"placeholder="Name" required>
+    <input type="email" name="email"placeholder="Email" required>
+    <input type="password" name="Password"placeholder="Password" required>
+    <input type="password" name="ConfirmPassword"placeholder="confirm Password" required>
+    <button type="submit">Register</button>
+    <p>Already have an account ? <a href="/login.html">Login here</a></p>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
